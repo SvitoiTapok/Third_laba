@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e3a80e5-0002-4d59-9ebe-358d49301794" name="Changes" comment="first.1 commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fucsia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fucsia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FucsiaCarrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FucsiaCarrier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Neznayka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Neznayka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NeznaykaLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeznaykaLayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NeznaykaMover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeznaykaMover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pilulkin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pilulkin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PilulkinCarrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PilulkinCarrier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PilulkinMover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PilulkinMover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Seledochka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Seledochka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SeledochkaCarrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SeledochkaCarrier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Znayka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Znayka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ZnaykaCarrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZnaykaCarrier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ZnaykaMover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZnaykaMover.java" afterDir="false" />
-    </list>
+    <list default="true" id="0e3a80e5-0002-4d59-9ebe-358d49301794" name="Changes" comment="getters and setters" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +79,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700016352088</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="getters and setters">
+      <option name="closed" value="true" />
+      <created>1700035386273</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700035386273</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +104,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="first.1 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first.1 commit" />
+    <MESSAGE value="getters and setters" />
+    <option name="LAST_COMMIT_MESSAGE" value="getters and setters" />
   </component>
 </project>
