@@ -1,8 +1,16 @@
 import java.util.ArrayList;
 
 public class Group implements GroupCarriers{
-    ArrayList<Carrier> carriers;
+    private ArrayList<Carrier> carriers;
     public Group(ArrayList<Carrier> carriers){
+        this.carriers = carriers;
+    }
+
+    public ArrayList<Carrier> getCarriers() {
+        return carriers;
+    }
+
+    public void setCarriers(ArrayList<Carrier> carriers) {
         this.carriers = carriers;
     }
 

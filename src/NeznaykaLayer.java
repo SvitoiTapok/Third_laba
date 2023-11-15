@@ -5,6 +5,6 @@ public class NeznaykaLayer extends Neznayka implements Layer{
     @Override
     public void lay(String bed) {
         this.setLocation(bed);
-        System.out.println(this.name + " lay on " + bed);
+        System.out.println(this.getName() + " lay on " + bed);
     }
 }

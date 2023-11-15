@@ -1,9 +1,9 @@
 public abstract class Fucsia extends Human{
     public Fucsia(){
-        this.name = "Fucsia";
+        this.setName("Fucsia");
     }
     public Fucsia(String location){
-        this.name = "Fucsia";
-        this.location = location;
+        this.setName("Fucsia");
+        this.setLocation(location);
     }
 }

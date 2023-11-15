@@ -1,9 +1,9 @@
 public abstract class Seledochka extends Human{
     public Seledochka(){
-        this.name = "Seledochka";
+        this.setName("Seledochka");
     }
     public Seledochka(String location){
-        this.name = "Seledochka";
-        this.location = location;
+        this.setName("Seledochka");
+        this.setLocation(location);
     }
 }

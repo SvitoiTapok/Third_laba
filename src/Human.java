@@ -1,6 +1,6 @@
 public abstract class Human implements Called, Existing{
-    String name = "Someone Unknown";
-    String location = "Somewhere";
+    private String name = "Someone Unknown";
+    private String location = "Somewhere";
     public void setName(String name){
         this.name = name;
     }

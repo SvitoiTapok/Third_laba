@@ -8,6 +8,6 @@ public class ZnaykaCarrier extends Znayka implements Carrier{
     @Override
     public void carry(MovableObject movable, String newPlace) {
         movable.setLocation(newPlace);
-        System.out.println(this.name + " move " + movable.getName() + " to " + newPlace);
+        System.out.println(this.getName() + " move " + movable.getName() + " to " + newPlace);
     }
 }

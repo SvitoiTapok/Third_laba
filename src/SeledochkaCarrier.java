@@ -8,7 +8,7 @@ public class SeledochkaCarrier extends Seledochka implements Carrier{
     @Override
     public void carry(MovableObject movable, String newPlace) {
         movable.setLocation(newPlace);
-        System.out.println(this.name + " move " + movable.getName() + " to " + newPlace);
+        System.out.println(this.getName() + " move " + movable.getName() + " to " + newPlace);
     }
 }
 
