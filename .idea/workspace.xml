@@ -4,8 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e3a80e5-0002-4d59-9ebe-358d49301794" name="Changes" comment="getters and setters + XML">
+    <list default="true" id="0e3a80e5-0002-4d59-9ebe-358d49301794" name="Changes" comment="small mistake(Antilunit)">
+      <change afterPath="$PROJECT_DIR$/src/Classes/Fossiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Classes/Fucsia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Classes/Material.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Classes/Pilulkin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Classes/Seledochka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Classes/SingleGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Classes/Znayka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/ICarry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/IFossily.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/Objectable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XML.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Called.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/Called.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Carrier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dressable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/Dressable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Existing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/Existing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FossilMaterials.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FossilerPerHour.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fucsia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FucsiaCarrier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Group.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GroupCarriers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Human.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/ILying.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainClass_TheWonderfulStory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClass_TheWonderfulStory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Material.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Movable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/Movable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MovableObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Neznayka.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NeznaykaDress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Neznayka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NeznaykaLayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NeznaykaMover.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pilulkin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PilulkinCarrier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PilulkinMover.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Seledochka.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SeledochkaCarrier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Speaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/ISpeak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Znayka.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZnaykaCarrier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZnaykaMover.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZnaykaSpeaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lunit.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,14 +58,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -39,9 +85,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Lenovo/IdeaProjects/ThirdLaba"
+    "last_opened_file_path": "C:/Users/Lenovo/IdeaProjects/ThirdLaba/src/AbstractClasses"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\IdeaProjects\ThirdLaba\src\AbstractClasses" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="MainClass_TheWonderfulStory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainClass_TheWonderfulStory" />
@@ -97,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700035774274</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="small mistake(Antilunit)">
+      <option name="closed" value="true" />
+      <created>1700047955022</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700047955022</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +175,7 @@
     <MESSAGE value="first.1 commit" />
     <MESSAGE value="getters and setters" />
     <MESSAGE value="getters and setters + XML" />
-    <option name="LAST_COMMIT_MESSAGE" value="getters and setters + XML" />
+    <MESSAGE value="small mistake(Antilunit)" />
+    <option name="LAST_COMMIT_MESSAGE" value="small mistake(Antilunit)" />
   </component>
 </project>

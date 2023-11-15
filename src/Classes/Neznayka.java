@@ -1,13 +1,24 @@
-import java.util.ArrayList;
+package Classes;
 
-public class NeznaykaDress extends Neznayka implements Dressable{
-    ArrayList<String> clothes = new ArrayList<>();
-    public NeznaykaDress(){super();}
-    public NeznaykaDress(String location){super(location);}
-    public NeznaykaDress(ArrayList<String> clothes){
+import Interfaces.Dressable;
+import Interfaces.ILying;
+import Interfaces.Objectable;
+
+import java.util.ArrayList;
+import AbstractClasses.*;
+public class Neznayka extends Human implements Objectable, Dressable, ILying {
+    private ArrayList<String> clothes = new ArrayList<>();
+    public Neznayka(){
+        this.setName("Neznayka");
+    }
+    public Neznayka(String location){
+        this.setName("Neznayka");
+        this.setLocation(location);
+    }
+    public Neznayka(ArrayList<String> clothes){
         this.clothes = clothes;
     }
-
+    //dressable
     @Override
     public ArrayList<String> getClothes() {
         return this.clothes;
@@ -38,4 +49,11 @@ public class NeznaykaDress extends Neznayka implements Dressable{
             System.out.println("Can't find this cloth");
         }
     }
+    //Lying
+    @Override
+    public void lay(String bed) {
+        this.setLocation(bed);
+        System.out.println(this.getName() + " lay on " + bed);
+    }
+
 }
