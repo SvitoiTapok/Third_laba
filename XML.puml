@@ -75,12 +75,14 @@ abstract class Fucsia {
 abstract class Neznayka {
 }
 class Group {
-~ ArrayList<Carrier> carriers
+- ArrayList<Carrier> carriers
++ ArrayList<Carrier> getCarriers()
++ void setCarriers(ArrayList<Carrier>)
 + void groupCarry(MovableObject,String)
 }
 abstract class Human {
-~ String name
-~ String location
+- String name
+- String location
 + void setName(String)
 + String getName()
 + String getLocation()

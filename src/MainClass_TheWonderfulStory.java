@@ -9,7 +9,7 @@ public class MainClass_TheWonderfulStory {
         znaykaSpeaker.say("Все оставшееся время использовать для добычи и погрузки в ракету лунита и антилунита.");
         FossilMaterials materials = new FossilerPerHour();
         materials.production(lunit.LUNIT);
-        materials.production(lunit.LUNIT);
+        materials.production(lunit.ANTILUNIT);
         Movable pilulkinMover = new PilulkinMover("Moon");
         pilulkinMover.move("rocket gateway");
         MovableObject neznaykaMover = new NeznaykaMover();

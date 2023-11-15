@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e3a80e5-0002-4d59-9ebe-358d49301794" name="Changes" comment="getters and setters" />
+    <list default="true" id="0e3a80e5-0002-4d59-9ebe-358d49301794" name="Changes" comment="getters and setters + XML">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +89,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700035386273</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="getters and setters + XML">
+      <option name="closed" value="true" />
+      <created>1700035774273</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700035774274</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +115,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="first.1 commit" />
     <MESSAGE value="getters and setters" />
-    <option name="LAST_COMMIT_MESSAGE" value="getters and setters" />
+    <MESSAGE value="getters and setters + XML" />
+    <option name="LAST_COMMIT_MESSAGE" value="getters and setters + XML" />
   </component>
 </project>
