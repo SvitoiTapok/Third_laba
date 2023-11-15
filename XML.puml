@@ -14,11 +14,11 @@ interface Existing {
 }
 abstract class Pilulkin {
 }
-class TheWonderfulStory {
-+ {static} void main(String[])
-}
 class FucsiaCarrier {
 + void carry(MovableObject,String)
+}
+class MainClass_TheWonderfulStory {
++ {static} void main(String[])
 }
 interface MovableObject {
 }

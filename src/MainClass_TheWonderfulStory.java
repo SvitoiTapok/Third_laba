@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class TheWonderfulStory {
+public class MainClass_TheWonderfulStory {
     public static void main(String[] args) {
         Speaker znaykaSpeaker = new ZnaykaSpeaker();
         znaykaSpeaker.say("доставьте Незнайку в ракету");
