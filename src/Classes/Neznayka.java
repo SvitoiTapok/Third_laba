@@ -6,7 +6,7 @@ import Interfaces.Objectable;
 
 import java.util.ArrayList;
 import AbstractClasses.*;
-public class Neznayka extends Human implements Objectable, Dressable, ILying {
+public class Neznayka extends Human implements Dressable, ILying {
     private ArrayList<String> clothes = new ArrayList<>();
     public Neznayka(){
         this.setName("Neznayka");

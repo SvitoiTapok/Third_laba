@@ -5,7 +5,7 @@ import Interfaces.ISpeak;
 import Interfaces.Objectable;
 import AbstractClasses.*;
 
-public class Znayka extends  Human implements ICarry, ISpeak, Objectable{
+public class Znayka extends  Human implements ICarry, ISpeak{
     public Znayka(){
         this.setName("Znayka");
     }

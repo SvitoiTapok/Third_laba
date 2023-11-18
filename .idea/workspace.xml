@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e3a80e5-0002-4d59-9ebe-358d49301794" name="Changes" comment="small mistake(Antilunit)" />
+    <list default="true" id="0e3a80e5-0002-4d59-9ebe-358d49301794" name="Changes" comment="small mistake(Antilunit)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/Neznayka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Neznayka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/Znayka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Znayka.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +29,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": -1
+}]]></component>
   <component name="ProjectId" id="2Y4OaQhaOBvJDM7RxDXvWkEXB61" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -33,6 +41,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "master"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo\IdeaProjects\ThirdLaba\src\AbstractClasses" />
@@ -108,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700054493900</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="small mistake(Antilunit)">
+      <option name="closed" value="true" />
+      <created>1700054636326</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700054636326</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,15 +142,14 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="first.1 commit" />
     <MESSAGE value="getters and setters" />
     <MESSAGE value="getters and setters + XML" />
-    <MESSAGE value="small mistake(Antilunit)" />
     <MESSAGE value="Repack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Repack" />
+    <MESSAGE value="small mistake(Antilunit)" />
+    <option name="LAST_COMMIT_MESSAGE" value="small mistake(Antilunit)" />
   </component>
 </project>
