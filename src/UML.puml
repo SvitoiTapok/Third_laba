@@ -1,0 +1,157 @@
+@startuml
+scale max 4000 width
+class MainClass_TheWonderfulStory {
++static void main(String[] args)
+}
+MainClass_TheWonderfulStory --down[#AAA]-o Classes.Znayka
+MainClass_TheWonderfulStory -down[#AAA]--o Classes.Fossiler
+MainClass_TheWonderfulStory -down[#AAA]-o Classes.Material
+MainClass_TheWonderfulStory -down[#AAA]--o Classes.Material
+MainClass_TheWonderfulStory -down[#AAA]-o Classes.Pilulkin
+MainClass_TheWonderfulStory --down[#AAA]-o Classes.Neznayka
+MainClass_TheWonderfulStory -down[#AAA]--o Classes.Fucsia
+MainClass_TheWonderfulStory -down[#AAA]-o Classes.Seledochka
+MainClass_TheWonderfulStory -down[#AAA]--o Classes.SingleGroup
+
+interface Interfaces.Called {
++String getName()
++void setName(String name)
+}
+
+
+interface Interfaces.Dressable {
++ArrayList<String> getClothes()
++void setClothes(ArrayList<String> clothes)
++void showClothes()
++void takeOffCloth(String cloth)
+}
+
+
+interface Interfaces.Existing {
++String getLocation()
++void setLocation(String location)
+}
+
+
+interface Interfaces.ICarry extends Interfaces.Called {
++void carry(Objectable objectable, String newPlace)
+}
+
+
+interface Interfaces.IFossily {
++void productes(Material material, int time)
+}
+
+
+interface Interfaces.ILying {
++void lay(String bed)
+}
+
+
+interface Interfaces.ISpeak {
++void say(String phrase)
+}
+
+
+interface Interfaces.Movable {
++void move(String newLocation)
+}
+
+
+interface Interfaces.Objectable extends Interfaces.Movable, Interfaces.Called, Interfaces.Existing {
+
+}
+
+
+enum Enums.MaterialsName {
+LUNIT, ANTILUNIT
+}
+
+
+class Classes.Fossiler implements Interfaces.IFossily {
++void productes(Material material, int time)
+}
+
+
+class Classes.Fucsia extends AbstractClasses.Human implements Interfaces.ICarry {
++Fucsia()
++Fucsia(String location)
++void carry(Objectable movable, String newPlace)
+}
+
+
+class Classes.Material {
+-int massPerMeter3
+-MaterialsName materialsName
++Material(int massPerMeter3, MaterialsName materialsName)
++int getMassPerMeter3()
++void setMassPerMeter3(int massPerMeter3)
++MaterialsName getMaterialsName()
++void setMaterialsName(MaterialsName materialsName)
+}
+
+
+class Classes.Neznayka extends AbstractClasses.Human implements Interfaces.Dressable, Interfaces.ILying {
+-ArrayList<String> clothes = new ArrayList<>()
++Neznayka()
++Neznayka(String location)
++Neznayka(ArrayList<String> clothes)
++ArrayList<String> getClothes()
++void setClothes(ArrayList<String> clothes)
++void showClothes()
++void takeOffCloth(String cloth)
++void lay(String bed)
+}
+
+
+class Classes.Pilulkin extends AbstractClasses.Human implements Interfaces.ICarry {
++Pilulkin()
++Pilulkin(String location)
++void carry(Objectable movable, String newPlace)
+}
+
+
+class Classes.Seledochka extends AbstractClasses.Human implements Interfaces.ICarry {
++Seledochka()
++Seledochka(String location)
++void carry(Objectable movable, String newPlace)
+}
+
+
+class Classes.SingleGroup extends AbstractClasses.GroupCarry {
++SingleGroup(ArrayList<ICarry> Carries)
+}
+
+
+class Classes.Znayka extends  AbstractClasses.Human implements Interfaces.ICarry, Interfaces.ISpeak {
++Znayka()
++Znayka(String location)
++void carry(Objectable movable, String newPlace)
++void say(String phrase)
+}
+
+
+abstract class AbstractClasses.GroupCarry {
+-ArrayList<ICarry> Carries
++GroupCarry(ArrayList<ICarry> Carries)
++ArrayList<ICarry> getCarriers()
++void setCarriers(ArrayList<ICarry> Carries)
++void groupCarry(Objectable objectable, String newPlace)
+}
+
+
+abstract class AbstractClasses.Human implements Interfaces.Objectable {
+-String name = "Someone Unknown"
+-String location = "Somewhere"
++void setName(String name)
++String getName()
++String getLocation()
++void setLocation(String location)
++String toString()
++boolean equals(Object obj)
++int hashCode()
++void move(String newLocation)
+}
+
+
+@enduml
